@@ -1,0 +1,41 @@
+{
+    "name": "helbertfernandes/xls2csv",
+    "type": "project",
+	"license": "MIT",
+	"readme": "README.md",
+    "authors": [
+        {
+            "name": "Helbert Fernandes",
+            "email": "helbertfernandes@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Helbert\\Test\\": "src/"
+        }
+    },
+    "require": {
+		"php": ">=5.4",
+		"ext-pdo": "*",
+		"ext-pdo_mysql": "*",
+		"ext-mysqli": "*",
+		"ext-session": "*",
+		"ext-ctype": "*",
+		"ext-dom": "*",
+		"ext-fileinfo": "*",
+		"ext-gd": "*",
+		"ext-iconv": "*",
+		"ext-libxml": "*",
+		"ext-mbstring": "*",
+		"ext-simplexml": "*",
+		"ext-xml": "*",
+		"ext-xmlreader": "*",
+		"ext-xmlwriter": "*",
+		"ext-zip": "*",
+		"ext-zlib": "*",
+        "phpoffice/phpspreadsheet": "*",
+        "phpoffice/phppresentation": "*",
+        "phpoffice/phpproject": "*",
+        "phpoffice/phpword": "*"
+	}
+}
